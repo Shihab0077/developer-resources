@@ -177,3 +177,26 @@ font-weight: 400;
     text-align: center;
     margin-top: 30px;
 }
+footer{
+    display: flex;
+    background-color:  #FFF8F3;
+    margin-top: 100px;
+    padding: 100px 150px;
+    gap: 50px;
+}
+.footer-column{
+    width: 50%;
+}
+.input-field{
+    border-radius: 5px;
+    margin-bottom: 25px;
+background: var(--white-color, #FFF);
+padding: 18px 35px;
+display: block;
+color: #757575;
+border-style: none;
+width: 75%;
+}
+#font-16{
+    font-size: 14px;
+}
