@@ -13,7 +13,6 @@ body {
   border: 0px;
   color: #fff;
   font-size: 20px;
-  font-weight: 700;
   padding: 15px 35px;
 }
 .btn-secondary {
@@ -37,6 +36,9 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+}
+hr{
+    color: #D1D1D1;
 }
 /* nav related styles */
 nav {
@@ -98,6 +100,9 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+main section {
+  margin-top: 130px;
+}
 .about {
   border-radius: 10px;
   background: #fff8f3;
@@ -120,5 +125,55 @@ main {
   color: var(--dark-02, #474747);
   font-size: 20px;
   font-weight: 700;
-  
+}
+/* style container */
+.skill-container {
+  display: flex;
+  gap: 20px;
+}
+.skill {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+}
+.skill-description {
+  color: var(--dark-03, #757575);
+  font-size: 16px;
+  font-weight: 400;
+}
+#what-i-do-description {
+  padding: 30px 150px;
+}
+/* resume section */
+.resume-container{
+    display: flex;
+    gap: 20px;
+    padding: 50px ;
+}
+.column-title{
+    color: var(--dark-02, #474747);
+font-size: 30px;
+
+font-weight: 700;
+}
+.edu-title{
+    color: var(--dark-02, #474747);;
+font-size: 25px;
+
+font-weight: 700;
+}
+.edu-subtitle{
+    color: var(--dark-03, #757575);
+font-size: 20px;
+font-weight: 600;
+}
+.edu-descrption{
+    color: var(--dark-03, #757575);
+font-size: 16px;
+font-weight: 400;
+}
+.btn-center{
+    text-align: center;
+    margin-top: 30px;
 }
